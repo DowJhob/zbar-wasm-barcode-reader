@@ -11,6 +11,7 @@ https://emscripten.org/docs/getting_started/downloads.html
 * GNU libtool 2.2.6
 * GNU gettext 0.18.1.1
 * GNU pkg-config 0.25
+* autopoint
 
 3. Clone the latest ZBar code from the Github repo
 `git clone git@github.com:ZBar/ZBar.git`
