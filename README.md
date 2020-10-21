@@ -5,6 +5,8 @@ This is a repo containing the code from the article ["USING THE ZBAR BARCODE SCA
 1. Install Emscripten first
 https://emscripten.org/docs/getting_started/downloads.html
 
+sudo apt install emscripten
+
 2. Install ZBar build tools
 * GNU autoconf 2.61
 * GNU automake 1.10.1
