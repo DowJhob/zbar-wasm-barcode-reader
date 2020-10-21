@@ -29,7 +29,7 @@ sed -i "s/ -Werror//" $(pwd)/configure.ac
 ```
 
 7. Generate automake files
-`autoreconf -i`
+`autoreconf -i --force`
 
 8. Configure: disable all unneccesary features
 This may produce red error messages, but it is safe to ignore them (it assumes that emscripten is GCC and uses invalid parameters on it)
