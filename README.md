@@ -47,7 +47,7 @@ emconfigure ./configure --without-x --without-jpeg --without-imagemagick --witho
 cd ..
 emcc -O3 -s WASM=1 \
 --js-library ./library.js \
--s EXTRA_EXPORTED_RUNTIME_METHODS='["cwrap", "Pointer_stringify"]' \
+-s EXTRA_EXPORTED_RUNTIME_METHODS='["cwrap", "UTF8ToString"]' \
 -I `pwd`/ZBar/include ./scan.c ./ZBar/zbar/.libs/libzbar.a
 ```
 
